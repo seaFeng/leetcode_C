@@ -14,4 +14,26 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="leetcode02_add.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="leetCode01_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode03_maxLengthString.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="leetcode03_maxLengthString_02.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uthash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZHYLinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

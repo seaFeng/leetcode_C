@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="leetCode01_sum.c" />
+    <ClCompile Include="leetcode02_add.c" />
+    <ClCompile Include="LeetCode03_maxLengthString.c" />
+    <ClCompile Include="leetcode03_maxLengthString_02.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uthash.h" />
+    <ClInclude Include="ZHYLinkList.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -88,6 +98,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
